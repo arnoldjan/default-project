@@ -4,4 +4,5 @@
 /web/css/*
 /web/fonts/*
 /web/js/*
+/node_modules/*
 /web/opcache-*
