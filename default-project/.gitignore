@@ -1,4 +1,7 @@
 /.puli/
 /vendor/*
 /web/bundles/*
+/web/css/*
+/web/fonts/*
+/web/js/*
 /web/opcache-*

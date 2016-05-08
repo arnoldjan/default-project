@@ -9,8 +9,8 @@ vagrant-Box with docker stuff
     vagrant ssh
     cd project/
     
-if project is empty
-has to be done only once on the initial startup...
+if project is empty (this
+has to be done only once on the initial startup)
 
     exit 
     vagrant reload
@@ -24,10 +24,16 @@ else
 
 
     # enter Vagrant, enter php container and projectfolder
+    vagrant ssh
+    cd project/
     bin/php bash
-    cd wowza-client-test
+    cd default-project
     
     composer install
     
     # Behta Tests ausführen
     bin/behat
+    
+Frontend Stuff outside of Vagrant:
+    cd default-project
+    npm install

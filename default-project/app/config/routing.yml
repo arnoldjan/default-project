@@ -1,3 +1,2 @@
 main:
     resource: "/ja/default-project/routing.yml"
-    prefix: /api

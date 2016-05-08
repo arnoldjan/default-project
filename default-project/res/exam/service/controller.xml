@@ -10,5 +10,10 @@
                  class="Ja\DefaultProject\Bundle\Exam\Controller\ExamInitial">
         </service>
 
+        <service id="ja.default_project.exam.controller.index"
+                 class="Ja\DefaultProject\Bundle\Exam\Controller\IndexController">
+            <argument type="service" id="templating"/>
+        </service>
+
     </services>
 </container>
