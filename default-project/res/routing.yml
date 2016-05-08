@@ -1,0 +1,2 @@
+_default:
+    resource: exam/routing/routing.yml

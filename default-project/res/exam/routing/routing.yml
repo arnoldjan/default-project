@@ -1,0 +1,8 @@
+ja_default_project_exam:
+    path: /exam/{name}
+    schemes: [https]
+    methods: [GET]
+    defaults:
+      _controller: ja.default_project.exam.controller.examinitial
+    requirements:
+      streamName: "\w+"

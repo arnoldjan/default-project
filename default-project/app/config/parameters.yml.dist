@@ -1,0 +1,5 @@
+parameters:
+  secret: dummy
+
+  private_key.pass_phrase: cinderella
+  nginx_host: 'nginx.nginx.dev.rest'
