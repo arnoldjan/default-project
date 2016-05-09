@@ -1,3 +1,28 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
 body {
-  background-color: #5bc0de;
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+header {
+  border-bottom: 1px solid #f5f5f5;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+
+  .footerEntry{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px;
+  }
 }
