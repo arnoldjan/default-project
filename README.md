@@ -30,6 +30,7 @@ else
     cd default-project
     
     composer install
+    (if it crashes try to execute composer install outside of vagrant)
     
     # Behta Tests ausführen
     bin/behat
